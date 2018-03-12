@@ -11,3 +11,4 @@ Use: Edit in PowerShell ISE or any text editor.
      input for compression: c image.png
      input for decompression: d image.png.paq8l
      
+Email: brunosil_94@hotmail.com
