@@ -5,9 +5,9 @@ First version of the PNG / BMP Lossless compressor, written entirely in powershe
 
 The algorithm changes the order of the bytes (RGB values) so that it is easier for the paq8 compressor to compress the image.
 
-The only error it has is that when decompressing it generates the same image but in 32 bits, making it a bit bigger in size compared to its original size.
+Error found: when decompressing it generates the same image but in 32 bits, making it a bit bigger in size compared to its original size.
 
-Use: Edit in PowerShell ISE or any text editor
+Use: Edit in PowerShell ISE or any text editor.
      input for compression: c image.png
      input for decompression: d image.png.paq8l
      
